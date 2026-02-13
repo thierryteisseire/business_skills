@@ -1,6 +1,6 @@
 {
   "name": "@thierryteisseire/sales-operations-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comprehensive sales operations setup assistant for Claude Code - implements lead management, forecasting, sales enablement, data analysis, process optimization, and team building",
   "main": "index.js",
   "type": "module",
