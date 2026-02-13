@@ -40,16 +40,38 @@ A comprehensive end-to-end sales operations framework covering:
 
 ## Installation
 
-### Option 1: Clone the Repository
+### Quick Install (Recommended)
+
+Install any skill with a single command:
 
 ```bash
-git clone https://github.com/thierryteisseire/business_skills.git
-cd business_skills
+# Using curl (one-liner)
+curl -fsSL https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s sales-operations-setup
+
+# Or using wget
+wget -qO- https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s sales-operations-setup
 ```
 
-### Option 2: Install Individual Skills
+### npm Package (Alternative)
 
-To install a skill in Claude Code:
+```bash
+# Install via npm
+npm install -g @thierryteisseire/sales-operations-setup
+```
+
+### Manual Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/thierryteisseire/business_skills.git
+cd business_skills
+
+# Run the installer
+cd skills/sales-operations-setup
+bash install.sh
+```
+
+### Manual Copy (Advanced)
 
 ```bash
 # Create skills directory if it doesn't exist

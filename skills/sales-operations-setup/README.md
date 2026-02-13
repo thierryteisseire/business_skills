@@ -9,13 +9,19 @@ A comprehensive AI-powered skill for setting up, optimizing, and scaling sales o
 
 ### Installation
 
-Install via npm (recommended):
+**One-Line Install (Recommended):**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s sales-operations-setup
+```
+
+**Or via npm:**
 
 ```bash
 npm install -g @thierryteisseire/sales-operations-setup
 ```
 
-The skill will automatically install to your Claude Code skills directory.
+Both methods automatically install the skill to your Claude Code skills directory.
 
 ### Usage
 

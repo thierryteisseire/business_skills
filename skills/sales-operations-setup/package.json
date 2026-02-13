@@ -40,6 +40,8 @@
   "files": [
     "SKILL.md",
     "README.md",
+    "skill.json",
+    "install.sh",
     "references/",
     "templates/",
     "examples/",

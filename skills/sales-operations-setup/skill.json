@@ -1,0 +1,94 @@
+{
+  "$schema": "https://claude.ai/schemas/skill-manifest-v1.json",
+  "name": "sales-operations-setup",
+  "displayName": "Sales Operations Setup",
+  "version": "1.0.0",
+  "description": "Comprehensive sales operations framework for lead management, forecasting, enablement, and analytics",
+  "author": {
+    "name": "Thierry Teisseire",
+    "email": "thierry@example.com",
+    "url": "https://github.com/thierryteisseire"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thierryteisseire/business_skills.git",
+    "directory": "skills/sales-operations-setup"
+  },
+  "homepage": "https://github.com/thierryteisseire/business_skills/tree/main/skills/sales-operations-setup",
+  "bugs": "https://github.com/thierryteisseire/business_skills/issues",
+  "license": "MIT",
+  "keywords": [
+    "sales-operations",
+    "sales-ops",
+    "lead-management",
+    "forecasting",
+    "sales-enablement",
+    "crm",
+    "pipeline",
+    "b2b-sales",
+    "saas",
+    "revenue-operations",
+    "revops"
+  ],
+  "categories": [
+    "sales",
+    "operations",
+    "business"
+  ],
+  "compatibility": {
+    "claude": ">=4.0.0"
+  },
+  "files": {
+    "skill": "SKILL.md",
+    "readme": "README.md",
+    "references": [
+      "references/lead-scoring-frameworks.md",
+      "references/pipeline-stages.md",
+      "references/sales-metrics-kpis.md"
+    ],
+    "templates": [
+      "templates/forecasting-model.md"
+    ]
+  },
+  "install": {
+    "type": "automatic",
+    "script": "install.js"
+  },
+  "usage": {
+    "command": "/sales-operations-setup",
+    "examples": [
+      {
+        "title": "Set up lead management",
+        "command": "Set up a lead management system for our B2B SaaS company"
+      },
+      {
+        "title": "Create forecasting model",
+        "command": "Help me create an accurate revenue forecasting model"
+      },
+      {
+        "title": "Build sales playbook",
+        "command": "Create a sales enablement playbook for our new product launch"
+      },
+      {
+        "title": "Configure CRM",
+        "command": "Help me configure Salesforce for our sales team"
+      }
+    ]
+  },
+  "features": [
+    "Lead scoring frameworks (BANT, MEDDIC, CHAMP)",
+    "Pipeline stage definitions for multiple sales models",
+    "32+ sales metrics and KPIs with formulas",
+    "Multi-method revenue forecasting",
+    "Sales enablement templates and playbooks",
+    "CRM configuration guidance",
+    "Process optimization frameworks"
+  ],
+  "requirements": {
+    "tools": [],
+    "optional": [
+      "CRM system (Salesforce, HubSpot, etc.)",
+      "Sales engagement platform"
+    ]
+  }
+}
