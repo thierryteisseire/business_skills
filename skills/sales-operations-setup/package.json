@@ -1,0 +1,59 @@
+{
+  "name": "@thierryteisseire/sales-operations-setup",
+  "version": "1.0.0",
+  "description": "Comprehensive sales operations setup assistant for Claude Code - implements lead management, forecasting, sales enablement, data analysis, process optimization, and team building",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agent-skill",
+    "sales-operations",
+    "sales-ops",
+    "lead-management",
+    "sales-forecasting",
+    "sales-enablement",
+    "crm",
+    "pipeline-management",
+    "sales-metrics",
+    "kpi",
+    "b2b-sales",
+    "saas",
+    "revenue-operations",
+    "revops",
+    "sales-playbook",
+    "bant",
+    "meddic",
+    "champ"
+  ],
+  "author": "Thierry Teisseire",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thierryteisseire/business_skills.git",
+    "directory": "skills/sales-operations-setup"
+  },
+  "bugs": {
+    "url": "https://github.com/thierryteisseire/business_skills/issues"
+  },
+  "homepage": "https://github.com/thierryteisseire/business_skills/tree/main/skills/sales-operations-setup#readme",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "references/",
+    "templates/",
+    "examples/",
+    "index.js",
+    "install.js"
+  ],
+  "scripts": {
+    "install": "node install.js",
+    "postinstall": "node install.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

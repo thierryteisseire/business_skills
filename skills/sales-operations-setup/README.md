@@ -1,6 +1,28 @@
 # Sales Operations Setup Skill
 
+[![npm version](https://badge.fury.io/js/@thierryteisseire%2Fsales-operations-setup.svg)](https://www.npmjs.com/package/@thierryteisseire/sales-operations-setup)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A comprehensive AI-powered skill for setting up, optimizing, and scaling sales operations.
+
+## Quick Start
+
+### Installation
+
+Install via npm (recommended):
+
+```bash
+npm install -g @thierryteisseire/sales-operations-setup
+```
+
+The skill will automatically install to your Claude Code skills directory.
+
+### Usage
+
+```bash
+# In Claude Code
+/sales-operations-setup
+```
 
 ## Overview
 
@@ -220,6 +242,33 @@ The skill follows a phased approach:
 - 🎓 **Training & Enablement** - Invest in team development
 - 💡 **Customer-Centric** - Design around customer journey
 
+## Alternative Installation Methods
+
+### Manual Installation
+
+If you prefer to install manually:
+
+```bash
+# Clone the repository
+git clone https://github.com/thierryteisseire/business_skills.git
+
+# Copy the skill
+cp -r business_skills/skills/sales-operations-setup ~/.agents/skills/
+
+# Create symlink
+cd ~/.claude/skills
+ln -s ../../.agents/skills/sales-operations-setup sales-operations-setup
+```
+
+### Verify Installation
+
+```bash
+# Check if skill is installed
+ls -la ~/.claude/skills/sales-operations-setup
+
+# You should see the skill directory and contents
+```
+
 ## Prerequisites
 
 None required. This skill works with:
@@ -248,8 +297,14 @@ None required. This skill works with:
 
 This skill is based on proven sales operations frameworks from leading SaaS companies, industry research, and best practices. The guidance provided is designed to be actionable, practical, and tailored to your specific needs.
 
+### Links
+
+- 📦 **npm Package**: [@thierryteisseire/sales-operations-setup](https://www.npmjs.com/package/@thierryteisseire/sales-operations-setup)
+- 🐙 **GitHub Repository**: [business_skills](https://github.com/thierryteisseire/business_skills)
+- 🐛 **Report Issues**: [GitHub Issues](https://github.com/thierryteisseire/business_skills/issues)
+
 ---
 
-**Version:** 1.0
-**Author:** Claude Code
+**Version:** 1.0.0
+**Author:** Thierry Teisseire
 **License:** MIT
