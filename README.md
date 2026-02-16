@@ -81,10 +81,10 @@ Install any skill using the [skills.sh](https://skills.sh/) CLI:
 
 ```bash
 # Goals & KPIs skill
-npx skills add thierryteisseire/business_skills/skills/goals-and-kpis
+npx skills add thierryteisseire/business_skills --skill goals-and-kpis -y -g
 
 # Sales Operations Setup skill
-npx skills add thierryteisseire/business_skills/skills/sales-operations-setup
+npx skills add thierryteisseire/business_skills --skill sales-operations-setup -y -g
 ```
 
 ### One-Line Install

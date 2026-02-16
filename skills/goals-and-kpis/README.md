@@ -14,7 +14,13 @@ A strategic AI-powered skill for defining, cascading, measuring, and reviewing b
 **Via skills CLI (Recommended):**
 
 ```bash
-npx skills add thierryteisseire/business_skills/skills/goals-and-kpis
+npx skills add thierryteisseire/business_skills --skill goals-and-kpis -y -g
+```
+
+Or use the shorthand:
+
+```bash
+npx skills add thierryteisseire/business_skills/skills/goals-and-kpis -y
 ```
 
 **Or via one-line install:**
