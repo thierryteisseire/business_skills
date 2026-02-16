@@ -8,9 +8,44 @@ This repository contains professionally designed skills that help automate and o
 
 ## Available Skills
 
-### 🎯 Sales Operations Setup
+### 🎯 Goals & KPIs
+
+**Location:** [`skills/goals-and-kpis`](skills/goals-and-kpis)
+**npm:** [@thierryteisseire/goals-and-kpis](https://www.npmjs.com/package/@thierryteisseire/goals-and-kpis)
+
+Strategic goal-setting and KPI design assistant covering:
+
+- **Goal Frameworks** - OKR, SMART, Balanced Scorecard, V2MOM, 4DX, EOS Rocks, Goal Map
+- **Quick Start Guides** - Optimized for companies 5-50 people with 30-min setup
+- **KPI Libraries** - 90+ KPIs across Sales, Marketing, Product, CS, Finance, HR, Tech
+- **Goal Cascading** - Company → department → team → individual alignment
+- **Dashboard Design** - Dashboard blueprints with RAG thresholds
+- **Review Cadences** - 7 meeting types with agendas and templates
+- **Anti-Patterns** - 20+ before/after examples of common mistakes
+- **Case Studies** - 3 real-world implementation stories
+- **Tool Integrations** - Google Sheets, Notion, Asana, Tableau, etc.
+
+**Key Features:**
+- ✅ 7 proven goal-setting frameworks
+- ✅ Small company quick-start (30-min setup)
+- ✅ Comprehensive KPI libraries with formulas
+- ✅ Goal Map & Metrics Map templates
+- ✅ Real-world case studies and anti-patterns
+- ✅ Works with any tool (Notion, Asana, Sheets, etc.)
+
+**Usage:**
+```
+/goals-and-kpis
+```
+
+**Documentation:** [View README](skills/goals-and-kpis/README.md)
+
+---
+
+### 💼 Sales Operations Setup
 
 **Location:** [`skills/sales-operations-setup`](skills/sales-operations-setup)
+**npm:** [@thierryteisseire/sales-operations-setup](https://www.npmjs.com/package/@thierryteisseire/sales-operations-setup)
 
 A comprehensive end-to-end sales operations framework covering:
 
@@ -40,22 +75,35 @@ A comprehensive end-to-end sales operations framework covering:
 
 ## Installation
 
-### Quick Install (Recommended)
+### Via skills CLI (Recommended)
 
-Install any skill with a single command:
+Install any skill using the [skills.sh](https://skills.sh/) CLI:
 
 ```bash
-# Using curl (one-liner)
-curl -fsSL https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s sales-operations-setup
+# Goals & KPIs skill
+npx skills add thierryteisseire/business_skills/skills/goals-and-kpis
 
-# Or using wget
-wget -qO- https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s sales-operations-setup
+# Sales Operations Setup skill
+npx skills add thierryteisseire/business_skills/skills/sales-operations-setup
 ```
 
-### npm Package (Alternative)
+### One-Line Install
 
 ```bash
-# Install via npm
+# Using curl
+curl -fsSL https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s goals-and-kpis
+
+# Or using wget
+wget -qO- https://raw.githubusercontent.com/thierryteisseire/business_skills/main/install-skill.sh | bash -s goals-and-kpis
+```
+
+### npm Package
+
+```bash
+# Goals & KPIs
+npm install -g @thierryteisseire/goals-and-kpis
+
+# Sales Operations Setup
 npm install -g @thierryteisseire/sales-operations-setup
 ```
 
@@ -177,5 +225,5 @@ This catalogue is maintained by [Thierry Teisseire](https://github.com/thierryte
 ---
 
 **Last Updated:** February 2026
-**Skills Count:** 1
-**Total Framework Pages:** 6
+**Skills Count:** 2
+**Available on:** [skills.sh](https://skills.sh/)
