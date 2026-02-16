@@ -5,7 +5,7 @@
 
 A strategic AI-powered skill for defining, cascading, measuring, and reviewing business goals and KPIs.
 
-**NEW in v1.2:** Now optimized for **companies of all sizes** — from 5-person startups to 5,000-person enterprises — with quick-start guides, before/after examples, case studies, and tool integrations.
+**NEW in v1.3:** Now features a **discovery-first, consultative approach** — asks qualifying questions to understand your context before recommending frameworks. Plus optimized for **companies of all sizes** — from 5-person startups to 5,000-person enterprises — with quick-start guides, before/after examples, case studies, and tool integrations.
 
 ## Quick Start
 
@@ -64,7 +64,8 @@ This skill focuses on the **goal-setting and measurement discipline** that every
 - **SKILL.md** — Main skill prompt with comprehensive goal-setting and KPI guidance
 
 ### Reference Materials
-- **small-company-quick-start.md** ⭐ **NEW** — Complete guide for 5-50 person companies: Simple OKRs, 30-min setup, 15-min check-ins, Google Sheets templates, real examples
+- **discovery-questions.md** ⭐ **NEW in v1.3** — 50+ discovery questions, decision trees, and red flags for consultative goal-setting. Use this FIRST before prescribing solutions.
+- **small-company-quick-start.md** ⭐ **NEW in v1.1** — Complete guide for 5-50 person companies: Simple OKRs, 30-min setup, 15-min check-ins, Google Sheets templates, real examples
 - **okr-anti-patterns.md** ⭐ **NEW** — 20+ before/after examples showing common mistakes (vague objectives, activity KRs, too many goals) and how to fix them
 - **case-studies.md** ⭐ **NEW** — 3 real-world stories: 18-person startup OKR success, 75-person cascade alignment, 35-person agency failure→turnaround
 - **tool-integrations.md** ⭐ **NEW** — How to implement in Google Sheets, Notion, Asana, Lattice, Tableau, Metabase with templates and code examples
@@ -225,6 +226,38 @@ None required. This skill works with:
 
 ---
 
+## What's New in v1.3
+
+🎯 **Discovery-First, Consultative Approach:**
+
+The skill now follows a consultative methodology — it asks qualifying questions to understand your context **before** recommending frameworks or prescribing OKRs. This ensures recommendations fit your organization's reality, culture, and constraints.
+
+**Key changes:**
+1. **New Discovery Framework** (`discovery-questions.md`)
+   - 50+ discovery questions organized by category
+   - Decision trees for framework selection
+   - Red flags that predict failure
+   - 15-20 minute discovery process
+
+2. **Updated SKILL.md Behavior**
+   - New section: "Consultative Approach: Discovery Before Prescription"
+   - Three-phase workflow: Discovery → Recommendation → Implementation
+   - Examples showing consultative vs prescriptive approach
+
+3. **Why This Matters**
+   - Reduces risk of implementing the wrong framework
+   - Identifies cultural fit and readiness issues early
+   - Builds trust through listening, not just prescribing
+   - Differentiates from competing "template library" skills
+
+**Example:**
+- ❌ **v1.2 approach**: "Here are your OKRs..."
+- ✅ **v1.3 approach**: "Let me understand your context first. Do you have goals today? What's prompting this now? How much time can you commit?"
+
+This makes the skill more professional and strategic — positioning as a "consultative goal-setting consultant" rather than an "OKR template generator."
+
+---
+
 ## What's New in v1.1
 
 🎉 **Major enhancements for small companies:**
@@ -268,6 +301,6 @@ None required. This skill works with:
 
 ---
 
-**Version:** 1.1.0
+**Version:** 1.3.0
 **Author:** Thierry Teisseire
 **License:** MIT

@@ -7,6 +7,78 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.3.0] - 2026-02-16
+
+### Added — Discovery-First, Consultative Approach 🎯
+
+#### New Workflow: Ask Before Prescribing
+- **Complete transformation from prescriptive to consultative approach**
+- Skill now follows a discovery-first methodology: understand context before recommending frameworks
+- Reduces risk of implementing the wrong solution or framework
+
+#### New Reference Guide
+- **`discovery-questions.md`** — Comprehensive discovery and qualification framework
+  - 50+ discovery questions organized by category
+  - 7 discovery areas: Organization Context, Current State, Strategic Context, Culture & Readiness, Constraints & Resources, Functional Scope, Success Criteria
+  - Discovery workflow (Quick Context → Deep Dive → Constraints → Success Definition)
+  - Red flags to watch for (10+ warning signs that predict failure)
+  - Discovery question checklist
+  - Discovery → Recommendation decision trees
+  - Example discovery conversations (good vs bad)
+  - Quick reference map: Discovery findings → Recommended approach
+  - 15-20 minute discovery process
+
+#### Enhanced SKILL.md
+- **New section:** "🎯 Consultative Approach: Discovery Before Prescription"
+  - Placed prominently after Quick Start section
+  - Discovery-first workflow explained (3 phases)
+  - Key discovery questions to ask (organized by category)
+  - Why discovery matters (anti-pattern vs consultative approach)
+  - Example of bad (prescriptive) vs good (consultative) response
+- **Updated "How It Works" section:**
+  - Restructured into 3 phases: Discovery & Qualification → Recommendation & Planning → Implementation & Execution
+  - Emphasis on understanding before recommending
+  - Added "Fit over framework" principle
+- **Updated Example 1 (Quarterly OKR Planning):**
+  - Shows discovery questions first
+  - Conditional recommendations based on answers
+  - Demonstrates consultative approach in action
+- **Updated "Getting Started" section:**
+  - Emphasizes that users don't need to prepare everything upfront
+  - Claude will ask discovery questions
+  - More welcoming and less prescriptive
+- **Updated resources table:**
+  - Added `discovery-questions.md` as first resource (⭐ NEW)
+  - Marked as "use this FIRST before prescribing solutions"
+- **Updated "When to use what" guide:**
+  - Added "First time user or unclear context?" → START with discovery-questions.md
+
+### Changed — Methodology
+- **Skill behavior fundamentally changed** from "Here are your OKRs" to "Let me understand your context first"
+- Reduces risk of bad recommendations that don't fit organizational culture or constraints
+- Builds trust through consultative questioning
+- Identifies risks and red flags early (before implementation)
+- Aligns recommendations to actual readiness and resources
+
+### Improved — Positioning
+- **Differentiates from competing OKR skills** on skills.sh (6 competitors, top has 305 installs)
+- Positions as "consultative goal-setting consultant" vs "OKR template library"
+- More professional, strategic approach
+- Suitable for founders, executives, strategy leaders (not just tactical implementers)
+
+### Documentation
+- New content: **~6,000 words** in `discovery-questions.md`
+- Updated SKILL.md with **~800 words** of new discovery guidance
+- Total skill content now exceeds **25,000 words** with references
+
+### Developer Notes
+- This is a **minor version bump** (1.2 → 1.3) because it adds new functionality (discovery framework)
+- **Breaking change:** Skill behavior is fundamentally different (now asks questions first)
+- However, all existing templates and references remain compatible
+- Users who invoked v1.2 and expected immediate OKRs will now be asked discovery questions first
+
+---
+
 ## [1.2.1] - 2026-02-16
 
 ### Changed

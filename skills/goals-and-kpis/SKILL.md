@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with any business function, CRM, BI tool, or project management platform — scales from 5-person startups to 5,000-person enterprises
 metadata:
   author: Thierry Teisseire
-  version: "1.2.1"
+  version: "1.3.0"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(*), AskUserQuestion
 ---
 
@@ -50,10 +50,81 @@ Consider **Goal Map + OKR Hybrid**:
 
 ---
 
+## 🎯 Consultative Approach: Discovery Before Prescription
+
+**IMPORTANT**: This skill uses a **consultative, discovery-first approach**. Before recommending any framework, templates, or OKRs, **always ask qualifying questions** to understand the user's context, challenges, constraints, and culture.
+
+### Discovery-First Workflow
+
+**Step 1: Quick Context (2-3 questions)**
+- Company size and stage
+- Current goal-setting state (have something / have nothing / have something broken)
+- Primary objective (Why now? What's the pain?)
+
+**Step 2: Deep Discovery (5-8 questions)**
+- Organization structure and culture
+- Current processes and what's working/not working
+- Strategic priorities and success criteria
+- Resources and constraints (time, budget, tools)
+- Team readiness and leadership commitment
+
+**Step 3: Synthesize & Recommend**
+Only after understanding their context, provide:
+- Recommended framework (and why it fits)
+- Implementation scope and timeline
+- Specific templates and tools
+- Risk mitigation for their concerns
+
+### Key Discovery Questions to Ask
+
+**Organization Context:**
+- "Tell me about your company — how many people, what stage, what industry?"
+- "How is your team structured? What functions exist?"
+
+**Current State:**
+- "Do you have a goal-setting process today? What does it look like?"
+- "What's working well? What's frustrating or not working?"
+- "When did you last review or update your goals?"
+
+**Strategic Context:**
+- "What are your top 2-3 strategic priorities for the next 12 months?"
+- "What's driving the need for goals/KPIs right now?"
+- "What does success look like 12 months from now?"
+
+**Culture & Readiness:**
+- "How do decisions typically get made? Top-down or collaborative?"
+- "Have you tried implementing OKRs or similar frameworks before? What happened?"
+- "How much time can leadership commit to goal-setting and reviews each week?"
+
+**Constraints & Resources:**
+- "What's your timeline? When do you need goals in place?"
+- "Do you have a budget for goal-setting tools?"
+- "What tools do you currently use?" (Notion, Asana, spreadsheets, etc.)
+
+**→ For the complete discovery framework with 50+ questions, decision trees, and red flags, see:** `references/discovery-questions.md`
+
+### Why Discovery Matters
+
+**Anti-pattern**: Jumping straight to "Here are your OKRs" without understanding:
+- Current goal-setting maturity
+- Team culture and buy-in
+- Existing processes and tools
+- Available time and resources
+- Leadership support and commitment
+
+**Consultative approach**: Ask, listen, understand — then recommend what actually fits.
+
+**Example**:
+- ❌ **Bad**: User says "help me set OKRs" → You immediately draft 5 company objectives
+- ✅ **Good**: User says "help me set OKRs" → You ask: "Tell me about your company size, current goal process, and what's prompting this now?" → Then recommend based on their answers
+
+---
+
 ## 📚 New Resources in This Skill
 
 | Resource | What It Covers | Best For |
 |----------|----------------|----------|
+| **discovery-questions.md** ⭐ **NEW** | 50+ discovery questions, decision trees, red flags | Everyone — use this FIRST before prescribing solutions |
 | **small-company-quick-start.md** | Simplified OKRs for startups/SMBs | 5-50 people |
 | **okr-anti-patterns.md** | Before/after examples of bad OKRs | Everyone (learning from mistakes) |
 | **case-studies.md** | 3 real-world stories (success & failure) | Understanding what actually works |
@@ -62,6 +133,7 @@ Consider **Goal Map + OKR Hybrid**:
 | **leading-vs-lagging.md** | Deep-dive on KPI design | KPI practitioners |
 
 **When to use what:**
+- **First time user or unclear context?** → **START HERE**: Read discovery-questions.md and ask qualifying questions
 - **New to OKRs?** Start with small-company-quick-start.md + okr-anti-patterns.md
 - **Choosing a framework?** Read framework-comparison.md
 - **Setting up tools?** Read tool-integrations.md
@@ -384,32 +456,62 @@ Use this skill when you need to:
 
 ## How It Works
 
-When you invoke this skill, Claude will:
+When you invoke this skill, Claude will follow a **consultative, discovery-first process**:
 
-1. **Understand your context** — company stage, team size, current challenges
-2. **Recommend a framework** — OKR, SMART, BSC, or a hybrid
-3. **Draft goals** — objectives, key results, and KPIs
-4. **Build the cascade** — company → department → team → individual
-5. **Design dashboards** — metrics, layout, refresh cadence
-6. **Create review rituals** — agendas, scoring guides, retrospectives
-7. **Identify leading indicators** — so you know early if you're on/off track
-8. **Generate action plans** — for goals rated amber or red
+### Phase 1: Discovery & Qualification (5-10 minutes)
+1. **Ask qualifying questions** — Understand your organization, current state, strategic priorities, culture, constraints
+2. **Listen and diagnose** — Identify what's working, what's broken, and what's needed
+3. **Assess readiness** — Determine cultural fit, leadership commitment, and resource availability
+4. **Identify red flags** — Surface risks that could cause failure (no leadership time, cultural resistance, unrealistic timeline)
+
+**→ See `references/discovery-questions.md` for the complete discovery framework**
+
+### Phase 2: Recommendation & Planning (10-15 minutes)
+5. **Recommend a framework** — OKR, SMART, BSC, EOS Rocks, or hybrid based on your context (with explanation of why it fits)
+6. **Define scope** — Company-level only? Cascade to departments? How many objectives?
+7. **Propose timeline** — Setup, rollout, review cadence
+8. **Suggest tools** — Based on budget and existing tools
+9. **Address concerns** — Mitigate risks you identified
+
+### Phase 3: Implementation & Execution (Ongoing)
+10. **Draft goals** — Objectives, key results, and KPIs tailored to your business
+11. **Build the cascade** — Company → department → team → individual (if appropriate)
+12. **Design dashboards** — Metrics, layout, refresh cadence (if data available)
+13. **Create review rituals** — Agendas, scoring guides, retrospectives
+14. **Identify leading indicators** — So you know early if you're on/off track
+15. **Generate templates** — Customized for your organization
+
+**Key principle: Discovery before prescription. Understanding before recommendation. Fit over framework.**
 
 ---
 
 ## Usage Examples
 
-### Example 1: Quarterly OKR Planning for a Startup
+### Example 1: Quarterly OKR Planning for a Startup (Discovery-First Approach)
 
 **User**: "Help me set Q2 OKRs for my 30-person B2B SaaS startup"
 
-**Claude will**:
-- Ask about company priorities (growth, retention, product, hiring)
-- Draft 3-4 company-level objectives with 3-5 KRs each
-- Cascade into department OKRs (Sales, Engineering, Marketing, CS)
-- Suggest leading metrics to track weekly
-- Create a scoring template for end-of-quarter grading
-- Design a weekly check-in agenda
+**Claude will** (Discovery Phase):
+1. **Ask discovery questions first**:
+   - "Do you have a goal-setting process today? What does it look like?"
+   - "What are your top 2-3 strategic priorities for Q2?"
+   - "What's prompting you to implement OKRs now?"
+   - "How is your 30-person team structured? What functions exist?"
+   - "How much time can you and your leadership team dedicate to this each week?"
+   - "Have you tried OKRs before? What happened?"
+
+2. **Based on your answers, recommend an approach**:
+   - If starting from scratch → Simple OKRs (3 company objectives, no cascade yet)
+   - If have goals but misaligned → Full cascade (company → department)
+   - If tried before and failed → Diagnose root cause first
+
+3. **Then implement**:
+   - Draft 3-4 company-level objectives with 3-5 KRs each (customized to your priorities)
+   - Cascade into department OKRs (Sales, Engineering, Marketing, CS) if appropriate
+   - Suggest leading metrics to track weekly
+   - Create a scoring template for end-of-quarter grading
+   - Design a weekly check-in agenda that fits your culture
+   - Address any concerns you raised (e.g., "worried nobody will use it")
 
 ### Example 2: Building a KPI Dashboard
 
@@ -544,13 +646,17 @@ This skill works alongside:
 
 ## Getting Started
 
-When you invoke this skill, be prepared to share:
+When you invoke this skill, **you don't need to prepare everything upfront**. This skill uses a consultative approach — Claude will ask you questions to understand your context first.
 
-1. **Company context** — stage, size, industry, business model
-2. **Current goals** — what you have today (or don't)
-3. **Pain points** — what's not working (alignment, tracking, execution)
-4. **Desired outcome** — OKR template? KPI dashboard? Workshop plan?
-5. **Time horizon** — this quarter? this year? multi-year?
+However, if you want to be prepared, consider these areas:
+
+1. **Company context** — Stage, size, industry, business model
+2. **Current state** — Do you have goals today? What's working/not working?
+3. **Why now** — What's prompting you to set up or improve goals?
+4. **Constraints** — Time, budget, tools, resources available
+5. **Success criteria** — How will you know this is working?
+
+**But don't worry if you don't have all the answers** — Claude will ask discovery questions to understand your situation and recommend what fits.
 
 ---
 
