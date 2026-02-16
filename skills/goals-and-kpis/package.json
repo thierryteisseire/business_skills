@@ -1,0 +1,61 @@
+{
+    "name": "@thierryteisseire/goals-and-kpis",
+    "version": "1.2.0",
+    "description": "Strategic goal-setting and KPI design assistant for Claude Code — OKR, SMART, Balanced Scorecard, V2MOM, 4DX, and EOS Rocks frameworks with KPI libraries, dashboard blueprints, and review cadences. Now optimized for small companies (5-50 people) with quick-start guides, anti-patterns, case studies, and tool integrations.",
+    "main": "index.js",
+    "type": "module",
+    "keywords": [
+        "claude",
+        "claude-code",
+        "agent-skill",
+        "goals",
+        "kpis",
+        "okr",
+        "objectives-key-results",
+        "smart-goals",
+        "balanced-scorecard",
+        "v2mom",
+        "4dx",
+        "eos-rocks",
+        "metrics",
+        "dashboards",
+        "performance-management",
+        "strategy",
+        "alignment",
+        "business-planning",
+        "quarterly-planning",
+        "review-cadence"
+    ],
+    "author": "Thierry Teisseire",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thierryteisseire/business_skills.git",
+        "directory": "skills/goals-and-kpis"
+    },
+    "bugs": {
+        "url": "https://github.com/thierryteisseire/business_skills/issues"
+    },
+    "homepage": "https://github.com/thierryteisseire/business_skills/tree/main/skills/goals-and-kpis#readme",
+    "files": [
+        "SKILL.md",
+        "README.md",
+        "CHANGELOG.md",
+        "skill.json",
+        "install.sh",
+        "references/",
+        "templates/",
+        "index.js",
+        "install.js"
+    ],
+    "scripts": {
+        "install": "node install.js",
+        "postinstall": "node install.js"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

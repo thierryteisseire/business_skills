@@ -1,0 +1,59 @@
+{
+  "departments": {
+    "Corporate": {
+      "purpose": "Corporate",
+      "big_goals": "We help our clients stand out and reach their potential by creating meaningful connections and lasting engagement between their brands and their customers",
+      "measurable_goals_2016": "We become recognized as the largest and most innovative digital marketing platform company on the planet\n\n$100M in revenue by 2018\n\n$200M in revenue by 2021"
+    },
+    "Sales": {
+      "purpose": "Sales",
+      "big_goals": "The engine of new and sustainable growth; relentless promoter of the Mapp.",
+      "measurable_goals_2016": "- The team is delivering net new growth consistently month over month\n- The organization is lifted by the energy created by the strongest sales trajectory in history; every employee feels connected to the growth engine\n- We gain recognized brands, often from top known competitors\n- The unique sales pitches excite and inspire\n-Able to set a meeting with anyone we choose"
+    },
+    "Strategy_Operations": {
+      "purpose": "Strategy & Operations",
+      "big_goals": "Guardian of a clear, sound, and inspirinng strategy; noble defender of productivity and making hard things simpler",
+      "measurable_goals_2016": "-The team and employees are motivated by the strategy, direction, and credibility of the company\n-We consistently achieve the stretch goals we set \n-Our growth orientation is matched by an obsession with cost management (\"cost management is a sport\")\n-A model for how to simplify all that is needed and to eliminate things that aren't"
+    },
+    "Marketing": {
+      "purpose": "Marketing",
+      "big_goals": "The ultimate ambassador of the brand and high-impact enabler of new growth opportunities",
+      "measurable_goals_2016": "-ME/BH has a clear and commanding voice; it\u2019s got an edge that's commanding attention\n-The brand and marketing (website, email marketing, published content) matches the digital marketing excellence and expertise we aim to deliver to our clients\n-We deliver multiple disruptive \"events\"; getting noticed in visible ways"
+    },
+    "Client_Success": {
+      "purpose": "Client Success",
+      "big_goals": "The ultimate guardian and enabler of customer success; creator of proud and enthusiastic client advocates",
+      "measurable_goals_2016": "-We strengthen key relationships, exciting and delighting existing customers through a relentless focus on value creation\n-Retention and NPS metrics consistently improve\n-Customers begin proudly referring BH to their friends leading to a new stream of highest-quality prospects\n\n"
+    },
+    "Interactive": {
+      "purpose": "Interactive",
+      "big_goals": "Creator of amazing audiences; building services and solutions that deliver timely, relevant, 1:1 interactions at scale.",
+      "measurable_goals_2016": "-We are viewed as industry thought-leaders providing strategies and services to help marketers achieve their potential\n-Our leadership and demonstrated performance drive substantial value to clients and massive upsell opportunities to us\n-The team wins several awards for its amazing work"
+    },
+    "Product": {
+      "purpose": "Product",
+      "big_goals": "Creator of the Product Vision and Roadmap, designer of ROI-generating, beautiful customer experiences",
+      "measurable_goals_2016": "-We are recognized by third parties as truly disruptive\n-The organization is energized and inspired by the pace and differentiation of the innovation\n-We win an award for innovation\n-We are partners with the strongest players in the market\n-The platform is architected in a way that speeds innovation to market and value to customers (micro-services architecture)\n-Design-driven to get to desired place in \"shortest route\"\n-Strong advancement with external analysts (e.g., Forrester, Gartner)"
+    },
+    "Technology": {
+      "purpose": "Technology",
+      "big_goals": "The Platform backbone, providing unfettered high-performance access to our offerings; proud builder of awesome high-quality products",
+      "measurable_goals_2016": "-The entire organization is surprised and delighted by the transformation in the tech team based on our new operating freedom\n-The transformation includes addition of top talent in key positions\n-It's abundantly clear that we control our destiny; the past constraints feel distant and ME/BH is now a cool place for top tech talent\n-Engineering productivity is a benchmark"
+    },
+    "Finance_Admin": {
+      "purpose": "Finance & Admin",
+      "big_goals": "Guardian and protector of financial performance and business health",
+      "measurable_goals_2016": "-We break through $100M in revenue by 2018; have a credible path to $200M by 2021\n-The team drives unprecedented levels of insight to create step-function improvements in key areas\n-We have the financial strength to execute our short and long-term plans\n-Our employees feel connected to the financial health of the business and are active participants as they are in growth initiatives"
+    },
+    "HR": {
+      "purpose": "Human Resources",
+      "big_goals": "Champion of our people and our teams; driving a culture of effectiveness, winning, engagement, and personal growth",
+      "measurable_goals_2016": "-We are recognized officially as a great place to work\n-Our speed and efficiency in talent acquisition is a benchmark\n-Employees are inspired by our mission, accountable to each other, and utilize their greatest strengths\n'-Retention is sky high\n-We have a culture that top global talent is swarming to join"
+    }
+  },
+  "structure": {
+    "purpose_row": 2,
+    "big_goals_row": 3,
+    "measurable_goals_row": 4
+  }
+}

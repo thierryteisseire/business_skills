@@ -1,0 +1,115 @@
+{
+    "$schema": "https://claude.ai/schemas/skill-manifest-v1.json",
+    "name": "goals-and-kpis",
+    "displayName": "Goals & KPIs",
+    "version": "1.2.0",
+    "description": "Strategic goal-setting and KPI design assistant — OKR, SMART, BSC, V2MOM, 4DX, EOS with KPI libraries, dashboards, and review cadences. Now optimized for small companies (5-50 people) with quick-start guides, anti-pattern examples, case studies, and tool integrations.",
+    "author": {
+        "name": "Thierry Teisseire",
+        "email": "thierry@epsimoai.com",
+        "url": "https://github.com/thierryteisseire"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thierryteisseire/business_skills.git",
+        "directory": "skills/goals-and-kpis"
+    },
+    "homepage": "https://github.com/thierryteisseire/business_skills/tree/main/skills/goals-and-kpis",
+    "bugs": "https://github.com/thierryteisseire/business_skills/issues",
+    "license": "MIT",
+    "keywords": [
+        "goals",
+        "kpis",
+        "okr",
+        "smart-goals",
+        "balanced-scorecard",
+        "v2mom",
+        "4dx",
+        "eos-rocks",
+        "goal-map",
+        "metrics-map",
+        "metrics",
+        "dashboards",
+        "performance-management",
+        "strategy",
+        "alignment"
+    ],
+    "categories": [
+        "strategy",
+        "performance",
+        "business"
+    ],
+    "compatibility": {
+        "claude": ">=4.0.0"
+    },
+    "files": {
+        "skill": "SKILL.md",
+        "readme": "README.md",
+        "references": [
+            "references/kpi-library.md",
+            "references/framework-comparison.md",
+            "references/leading-vs-lagging.md",
+            "references/small-company-quick-start.md",
+            "references/okr-anti-patterns.md",
+            "references/case-studies.md",
+            "references/tool-integrations.md"
+        ],
+        "templates": [
+            "templates/okr-template.md",
+            "templates/review-agendas.md",
+            "templates/goal-map.md"
+        ]
+    },
+    "install": {
+        "type": "automatic",
+        "script": "install.js"
+    },
+    "usage": {
+        "command": "/goals-and-kpis",
+        "examples": [
+            {
+                "title": "Set quarterly OKRs",
+                "command": "Help me set Q2 OKRs for my 30-person B2B SaaS startup"
+            },
+            {
+                "title": "Design a KPI dashboard",
+                "command": "Design a KPI dashboard for our marketing team"
+            },
+            {
+                "title": "Cascade company goals",
+                "command": "Cascade our $10M ARR target into department and team objectives"
+            },
+            {
+                "title": "Run a goal-setting workshop",
+                "command": "Facilitate a 3-hour goal-setting offsite for our leadership team"
+            },
+            {
+                "title": "Diagnose goal failure",
+                "command": "Our Q1 goals all came in at 30-40 %. What went wrong?"
+            }
+        ]
+    },
+    "features": [
+        "7 goal-setting frameworks (OKR, SMART, BSC, V2MOM, 4DX, EOS Rocks, Goal Map)",
+        "Small Company Quick Start guide (5-50 people) with simplified frameworks",
+        "Goal Map with Functional View (Purpose, BIG Goals, Measurable Goals, Risks, Assumptions per function)",
+        "Metrics Map — operational KPI registry with targets, data sources, frequencies, and next steps",
+        "KPI libraries for Sales, Marketing, Product, CS, Finance, HR, Technology (90+ KPIs)",
+        "Goal cascade design (company → department → team → individual)",
+        "Dashboard blueprints with RAG thresholds",
+        "Review cadences and agenda templates (7 meeting types)",
+        "OKR scoring and confidence models",
+        "Anti-pattern identification with 20+ before/after examples",
+        "3 real-world case studies (successes and failures)",
+        "Tool integration guide (Google Sheets, Notion, Asana, Lattice, Tableau, etc.)",
+        "Workshop facilitation plans"
+    ],
+    "requirements": {
+        "tools": [],
+        "optional": [
+            "Project management tool (Notion, Asana, Monday, etc.)",
+            "BI / dashboard tool (Looker, Tableau, Power BI, etc.)",
+            "CRM system for sales KPI data"
+        ]
+    }
+}
