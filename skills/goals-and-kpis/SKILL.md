@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with any business function, CRM, BI tool, or project management platform — scales from 5-person startups to 5,000-person enterprises
 metadata:
   author: Thierry Teisseire
-  version: "1.1"
+  version: "1.2.1"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(*), AskUserQuestion
 ---
 

@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved installation commands with `-y -g` flags for automated setup
 - Enhanced README with skills.sh references and links
 
+### Fixed
+- Updated README and SKILL.md metadata with correct version strings
+- Fixed installation command documentation in README.md
+
 ## [1.2.0] - 2026-02-16
 
 ### Changed

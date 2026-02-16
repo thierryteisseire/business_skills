@@ -5,7 +5,7 @@
 
 A strategic AI-powered skill for defining, cascading, measuring, and reviewing business goals and KPIs.
 
-**NEW in v1.1:** Now optimized for **companies of all sizes** — from 5-person startups to 5,000-person enterprises — with quick-start guides, before/after examples, case studies, and tool integrations.
+**NEW in v1.2:** Now optimized for **companies of all sizes** — from 5-person startups to 5,000-person enterprises — with quick-start guides, before/after examples, case studies, and tool integrations.
 
 ## Quick Start
 
