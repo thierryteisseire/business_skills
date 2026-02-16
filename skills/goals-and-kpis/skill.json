@@ -2,7 +2,7 @@
     "$schema": "https://claude.ai/schemas/skill-manifest-v1.json",
     "name": "goals-and-kpis",
     "displayName": "Goals & KPIs",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Strategic goal-setting and KPI design assistant — OKR, SMART, BSC, V2MOM, 4DX, EOS with KPI libraries, dashboards, and review cadences. Now optimized for small companies (5-50 people) with quick-start guides, anti-pattern examples, case studies, and tool integrations.",
     "author": {
         "name": "Thierry Teisseire",

@@ -1,6 +1,6 @@
 {
     "name": "@thierryteisseire/goals-and-kpis",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Strategic goal-setting and KPI design assistant for Claude Code — OKR, SMART, Balanced Scorecard, V2MOM, 4DX, and EOS Rocks frameworks with KPI libraries, dashboard blueprints, and review cadences. Now optimized for small companies (5-50 people) with quick-start guides, anti-patterns, case studies, and tool integrations.",
     "main": "index.js",
     "type": "module",
